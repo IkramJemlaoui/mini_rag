@@ -1,10 +1,14 @@
 # src/rag_pipeline.py
 from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_community.llms import Ollama
+
 
 
 def build_rag(pdf_path: str):
@@ -28,8 +32,8 @@ def build_rag(pdf_path: str):
     # 4️⃣ Build Retrieval + LLM chain
     retriever = db.as_retriever(search_kwargs={"k": 3})
     qa_chain = RetrievalQA.from_chain_type(
-        llm=ChatOpenAI(model_name="gpt-3.5-turbo"),
-        retriever=retriever
+        llm=Ollama(model="mistral"),
+         retriever=retriever
     )
 
     return qa_chain
