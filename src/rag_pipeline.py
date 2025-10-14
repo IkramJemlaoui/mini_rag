@@ -1,35 +1,40 @@
 # src/rag_pipeline.py
-from langchain.document_loaders import PyPDFLoader
+# ✅ FINAL VERSION — Local Ollama + Mistral RAG pipeline
+
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_ollama import OllamaEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_community.llms import Ollama
 
 
 def build_rag(pdf_path: str):
     """
     Builds a minimal Retrieval-Augmented Generation (RAG) pipeline
-    from one PDF document.
+    using a local Ollama model (Mistral).
     """
 
-    # 1️⃣ Load the document
-    loader = PyPDFLoader("C:/Users/Ikram/Downloads/RAG_PDF.pdf")
+    print(" Loading PDF...")
+    loader = PyPDFLoader("data\mon_doc.pdf")
     documents = loader.load()
 
-    # 2️⃣ Split the text into small chunks
+    print(" Splitting text into chunks...")
     splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
     texts = splitter.split_documents(documents)
 
-    # 3️⃣ Create embeddings and vector index
-    embeddings = OpenAIEmbeddings()
+    print(" Generating embeddings with Mistral (via Ollama)...")
+    embeddings = OllamaEmbeddings(model="mistral")
+
+    print(" Building FAISS vector store...")
     db = FAISS.from_documents(texts, embeddings)
 
-    # 4️⃣ Build Retrieval + LLM chain
+    print(" Creating RetrievalQA pipeline with Mistral LLM...")
     retriever = db.as_retriever(search_kwargs={"k": 3})
     qa_chain = RetrievalQA.from_chain_type(
-        llm=ChatOpenAI(model_name="gpt-3.5-turbo"),
+        llm=Ollama(model="mistral"),
         retriever=retriever
     )
 
+    print(" RAG pipeline ready!")
     return qa_chain
