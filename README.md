@@ -1,3 +1,35 @@
+<p align="center">
+  <img src="assets/logo.jpg" alt="Mini RAG Chatbot Logo" width="200"/>
+</p>
+
+<h1 align="center">🤖 Mini RAG Chatbot – Local AI Assistant</h1>
+
+<p align="center">
+  <em>An intelligent local assistant that answers questions from PDFs using Retrieval-Augmented Generation (RAG)</em>
+</p>
+
+<p align="center">
+  🐍 <strong>Python 3.11</strong>  |  ⚙️ <strong>LangChain</strong>  |  🧠 <strong>Ollama / Mistral</strong>  |  🗄️ <strong>ChromaDB</strong>
+</p>
+
+---
+
+## 📚 Table of Contents
+| Section | Description |
+|----------|--------------|
+| [🎯 Project Goal](#-project-goal) | Overview and objectives |
+| [🧩 Tech Stack](#-tech-stack) | Tools and frameworks used |
+| [🏗️ Architecture Overview](#️-architecture-overview) | System design and pipeline |
+| [🧠 Models Used](#-models-used) | LLM and embeddings details |
+| [📄 Data Source](#-data-source) | Input document and processing |
+| [⚙️ Installation & Usage](#️-installation--usage) | Setup and execution guide |
+| [🐳 Docker](#-docker-optionnel) | Containerization instructions |
+| [🚀 Features](#-features) | Key capabilities |
+| [📦 Project Structure](#-project-structure) | Folder and file organization |
+| [💡 Next Steps](#-next-steps) | Future improvements |
+| [👤 Author](#-author) | Credits and contact |
+| [📝 License](#-license) | Licensing details |
+
 # 🤖 Mini RAG Chatbot – Local AI Assistant
 
 > **An intelligent local assistant that answers questions from PDF documents using a Retrieval-Augmented Generation (RAG) architecture.**  
