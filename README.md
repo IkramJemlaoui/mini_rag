@@ -113,26 +113,28 @@ Pipeline RAG complet :
 User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → Answer
 
 ```
+## 🚀 Features
+
+- **Local RAG Intelligence:** Combines semantic retrieval and generative AI for accurate, contextual answers from PDFs.  
+- **PDF Understanding:** Automatically extracts, splits, and processes PDF documents for question answering.  
+- **End-to-End RAG Pipeline:** Integrates LangChain + ChromaDB + Mistral (via Ollama) for retrieval-augmented generation.  
+- **100% Local Execution:** All data and inference happen locally — ensuring complete privacy and control.  
+- **Interactive Gradio UI:** Simple and responsive web interface for seamless chatbot interactions.  
+- **Fast Vector Search:** Uses optimized embeddings with `nomic-embed-text` and ChromaDB for efficient retrieval.  
+- **Docker-Ready Deployment:** Fully containerized for quick setup and reproducible environments.  
+- **Modular Codebase:** Clean architecture enabling easy integration of new models or vector databases.  
+- **Scalable Extensions:** Future-proof design — ready for multi-document support, advanced analytics, and new LLMs.  
 
 
 ## 🧠 Models Used
 
-LLM : Mistral
- déployé localement via Ollama
+° LLM : Mistral déployé localement via Ollama
 
 Embeddings : nomic-embed-text — modèle léger et performant pour la vectorisation rapide
 
-📄 Data Source
+° Data Source :Fichiers PDF uploadés par l’utilisateur
 
-Fichiers PDF uploadés par l’utilisateur
-
-Le contenu est :
-
-découpé et nettoyé,
-
-vectorisé et stocké localement,
-
-interrogé en toute confidentialité et rapidité.
+Le contenu est : découpé et nettoyé, vectorisé et stocké localement, interrogé en toute confidentialité et rapidité.
 
 ## ⚙️ Installation & Usage
 1️⃣ Cloner le projet
