@@ -13,7 +13,6 @@
   <img src="https://img.shields.io/badge/LangChain-%2300BFA5.svg?style=for-the-badge&logoColor=white" alt="LangChain Badge"/>
   <img src="https://img.shields.io/badge/Ollama%20%2F%20Mistral-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="Ollama Mistral Badge"/>
   <img src="https://img.shields.io/badge/ChromaDB-orange?style=for-the-badge&logo=databricks&logoColor=white" alt="ChromaDB Badge"/>
-</p>strong>Python 3.11</strong>  |  ⚙️ <strong>LangChain</strong>  |  🧠 <strong>Ollama / Mistral</strong>  |  🗄️ <strong>ChromaDB</strong>
 </p>
 
 ---
