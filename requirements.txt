@@ -1,21 +1,8 @@
-# Core LangChain ecosystem
-langchain==0.3.8
-langchain-community==0.3.8
-langchain-ollama==0.2.2
-langchain-chroma==0.1.4
-
-# Vector database
-chromadb==0.5.5
-
-# Local model interface
-ollama==0.3.3
-
-# UI
-gradio==4.44.0
-
-# PDF loader & text processing
-pypdf==4.3.1
-
-# Optional: improves performance & compatibility
-tqdm
-numpy
+gradio
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+chromadb
+pypdf
+pydantic
