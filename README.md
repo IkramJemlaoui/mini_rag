@@ -66,7 +66,7 @@ Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)*
 ## 🏗️ Architecture Overview
 
 **Pipeline RAG complet :**
-         ┌───────────────────────────┐
+                ┌───────────────────────────┐
          │       User Uploads        │
          │        PDF File           │
          └────────────┬──────────────┘
@@ -107,6 +107,7 @@ Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)*
          │ - Chat interface          │
          │ - Displays responses      │
          └───────────────────────────┘
+
 
 
 ```text
