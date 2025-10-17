@@ -150,7 +150,8 @@ python -m venv .venv
 3-Install your dependencies
 
 ```bash
-pip install -r requirements.txt ```
+pip install -r requirements.txt
+```
 
 4️- Lanch the application
 
