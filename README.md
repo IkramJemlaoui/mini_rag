@@ -40,7 +40,8 @@
 
 Create a **local intelligent assistant** capable of answering natural language questions based on a PDF document.
 The project implements a **Retrieval-Augmented Generation (RAG)** architecture to combine **semantic search** and **text generation**, ensuring **accurate**, **relevant**, and **context-aware responses**. 
---
+
+__
 
 Créer un **assistant intelligent local** capable de répondre à des questions en langage naturel à partir d’un document PDF.  
 Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)** pour combiner **recherche sémantique** et **génération de texte**, garantissant des **réponses précises, pertinentes et contextuelles**.
