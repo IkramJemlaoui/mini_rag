@@ -127,18 +127,21 @@ User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → An
 
 ° LLM : Mistral déployé localement via Ollama
 
-Embeddings : nomic-embed-text — modèle léger et performant pour la vectorisation rapide
+ Embeddings : nomic-embed-text — modèle léger et performant pour la vectorisation rapide
 
 ° Data Source :Fichiers PDF uploadés par l’utilisateur
 
 Le contenu est : découpé et nettoyé, vectorisé et stocké localement, interrogé en toute confidentialité et rapidité.
 
-## ⚙️ Installation & Usage
-1️⃣ Cloner le projet
-git clone https://github.com/<your_username>/mini_rag.git
-cd mini_rag
+##  Quick Start
 
-2️⃣ Créer et activer l’environnement virtuel
+1️- Clone and Setup
+```bash
+git clone https://github.com/IkramJemlaoui/mini_rag
+cd mini_rag
+```
+
+2️- Créer et activer l’environnement virtuel
 python -m venv .venv
 # Sur Windows :
 .venv\Scripts\Activate.ps1
