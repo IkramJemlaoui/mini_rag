@@ -115,9 +115,7 @@ User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → An
 ```
 
 
-
-
-##🧠 Models Used
+## 🧠 Models Used
 
 LLM : Mistral
  déployé localement via Ollama
@@ -136,7 +134,7 @@ vectorisé et stocké localement,
 
 interrogé en toute confidentialité et rapidité.
 
-⚙️ Installation & Usage
+## ⚙️ Installation & Usage
 1️⃣ Cloner le projet
 git clone https://github.com/<your_username>/mini_rag.git
 cd mini_rag
