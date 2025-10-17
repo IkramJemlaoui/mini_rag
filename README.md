@@ -66,15 +66,52 @@ Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)*
 ## 🏗️ Architecture Overview
 
 **Pipeline RAG complet :**
+         ┌───────────────────────────┐
+         │       User Uploads        │
+         │        PDF File           │
+         └────────────┬──────────────┘
+                      │
+                      ▼
+         ┌───────────────────────────┐
+         │        PDF Loader         │
+         │ - Reads & splits content  │
+         │ - Cleans and prepares text│
+         └────────────┬──────────────┘
+                      │
+                      ▼
+         ┌───────────────────────────┐
+         │     Embeddings Engine     │
+         │ - nomic-embed-text model  │
+         │ - Converts text → vectors │
+         └────────────┬──────────────┘
+                      │
+                      ▼
+         ┌───────────────────────────┐
+         │       Vector Store        │
+         │         ChromaDB          │
+         │ - Stores embeddings       │
+         │ - Enables semantic search │
+         └────────────┬──────────────┘
+                      │
+                      ▼
+         ┌───────────────────────────┐
+         │     RAG Pipeline (LLM)    │
+         │ - Mistral via Ollama      │
+         │ - Retrieves context + gen │
+         │ - Produces final answer   │
+         └────────────┬──────────────┘
+                      │
+                      ▼
+         ┌───────────────────────────┐
+         │        Gradio UI          │
+         │ - Chat interface          │
+         │ - Displays responses      │
+         └───────────────────────────┘
 
-1. 📥 Chargement et découpage du PDF  
-2. 🧮 Génération d’embeddings via *nomic-embed-text*  
-3. 🧠 Stockage et recherche sémantique avec *ChromaDB*  
-4. 💬 Génération de réponses par *Mistral* (via Ollama)  
-5. 🌐 Interface utilisateur simple et interactive avec *Gradio*  
 
 ```text
 User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → Answer
+
 
 🧠 Models Used
 
