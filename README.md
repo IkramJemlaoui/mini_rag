@@ -141,8 +141,13 @@ git clone https://github.com/IkramJemlaoui/mini_rag
 cd mini_rag
 ```
 
-2️- Créer et activer l’environnement virtuel
+2️- Create and activate a virtual environment:
+```bash
 python -m venv .venv
+.venv\Scripts\Activate.ps1
+```
+3-Install your dependencies
+`pip install -r requirements.txt`
 # Sur Windows :
 .venv\Scripts\Activate.ps1
 # Sur macOS / Linux :
