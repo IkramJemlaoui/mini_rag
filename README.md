@@ -110,7 +110,7 @@ Pipeline RAG complet :
  │ - Displays responses      │
  └───────────────────────────┘
 
-
+```
 
 text
 User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → Answer
