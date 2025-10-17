@@ -110,13 +110,14 @@ Pipeline RAG complet :
  │ - Displays responses      │
  └───────────────────────────┘
 
-```
-
-text
 User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → Answer
 
+```
 
-🧠 Models Used
+
+
+
+##🧠 Models Used
 
 LLM : Mistral
  déployé localement via Ollama
