@@ -29,9 +29,7 @@
 | [🐳 Docker](#-docker-optionnel) | Containerization instructions |
 | [🚀 Features](#-features) | Key capabilities |
 | [📦 Project Structure](#-project-structure) | Folder and file organization |
-| [💡 Next Steps](#-next-steps) | Future improvements |
-| [👤 Author](#-author) | Credits and contact |
-| [📝 License](#-license) | Licensing details |
+
 
 
 ---
