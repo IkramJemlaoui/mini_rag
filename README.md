@@ -121,9 +121,6 @@ User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → An
 - **100% Local Execution:** All data and inference happen locally — ensuring complete privacy and control.  
 - **Interactive Gradio UI:** Simple and responsive web interface for seamless chatbot interactions.  
 - **Fast Vector Search:** Uses optimized embeddings with `nomic-embed-text` and ChromaDB for efficient retrieval.  
-- **Docker-Ready Deployment:** Fully containerized for quick setup and reproducible environments.  
-- **Modular Codebase:** Clean architecture enabling easy integration of new models or vector databases.  
-- **Scalable Extensions:** Future-proof design — ready for multi-document support, advanced analytics, and new LLMs.  
 
 
 ## 🧠 Models Used
