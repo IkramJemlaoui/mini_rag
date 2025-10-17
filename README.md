@@ -65,8 +65,6 @@ Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)*
 
 ## 🏗️ Architecture Overview
 
-## 🏗️ Architecture Overview
-
 ```text
 Pipeline RAG complet :
 
@@ -114,7 +112,7 @@ Pipeline RAG complet :
 
 
 
-```text
+text
 User Query → PDF Splitter → Embeddings → Vector Store → RAG Chain → Answer
 
 
