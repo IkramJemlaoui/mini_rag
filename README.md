@@ -16,6 +16,8 @@
 </p>
 
 ---
+## Video DEMO 
+ Click the link to download and watch it
 [![Watch the demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue)](https://github.com/IkramJemlaoui/mini_rag/blob/main/assets/RAG_DEMO.mp4)
 
 
@@ -30,9 +32,8 @@
 | [🧠 Models Used](#-models-used) | LLM and embeddings details |
 | [📄 Data Source](#-data-source) | Input document and processing |
 | [⚙️ Installation & Usage](#️-installation--usage) | Setup and execution guide |
-| [🐳 Docker](#-docker-optionnel) | Containerization instructions |
 | [🚀 Features](#-features) | Key capabilities |
-| [📦 Project Structure](#-project-structure) | Folder and file organization |
+
 
 
 
