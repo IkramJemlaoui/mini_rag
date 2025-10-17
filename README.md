@@ -16,7 +16,8 @@
 </p>
 
 ---
-<video src="assets/dRAG_DEMO.mp4" controls width="600"></video>
+[![Watch the demo](https://img.shields.io/badge/Watch%20Demo-Click%20Here-blue)](https://github.com/IkramJemlaoui/mini_rag/blob/main/assets/RAG_DEMO.mp4)
+
 
 
 
