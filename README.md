@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Mini RAG Chatbot Logo" width="200"/>
 </p>
 
-<h1 align="center">🤖 Mini RAG Chatbot – Local AI Assistant</h1>
+<h1 align="center"> Mini RAG Chatbot – Local AI Assistant</h1>
 
 <p align="center">
   <em>An intelligent local assistant that answers questions from PDFs using Retrieval-Augmented Generation (RAG)</em>
@@ -33,14 +33,14 @@
 | [👤 Author](#-author) | Credits and contact |
 | [📝 License](#-license) | Licensing details |
 
-# 🤖 Mini RAG Chatbot – Local AI Assistant
-
-> **An intelligent local assistant that answers questions from PDF documents using a Retrieval-Augmented Generation (RAG) architecture.**  
-> Built with **LangChain**, **Ollama (Mistral)**, **ChromaDB**, and **Gradio**.
 
 ---
 
 ## 🎯 Project Goal
+
+Create a **local intelligent assistant** capable of answering natural language questions based on a PDF document.
+The project implements a **Retrieval-Augmented Generation (RAG)** architecture to combine **semantic search** and **text generation**, ensuring **accurate**, **relevant**, and **context-aware responses**. 
+--
 
 Créer un **assistant intelligent local** capable de répondre à des questions en langage naturel à partir d’un document PDF.  
 Le projet met en œuvre une architecture **Retrieval-Augmented Generation (RAG)** pour combiner **recherche sémantique** et **génération de texte**, garantissant des **réponses précises, pertinentes et contextuelles**.
