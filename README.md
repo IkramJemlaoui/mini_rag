@@ -147,20 +147,15 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 3-Install your dependencies
-`pip install -r requirements.txt`
-# Sur Windows :
-.venv\Scripts\Activate.ps1
-# Sur macOS / Linux :
-source .venv/bin/activate
+```bash
+pip install -r requirements.txt ```
 
-3️⃣ Installer les dépendances
-pip install -r requirements.txt
-
-4️⃣ Lancer l’application
-python app.py
+4️- Lanch the application
+```bash
+python app.py ```
 
 
-L’application s’exécute ensuite en local sur :
-👉 http://127.0.0.1:7860
+The application then runs locally at:
+  http://127.0.0.1:7860
 
-Vous pouvez y uploader un PDF et interagir avec le chatbot directement depuis l’interface web.
+You can upload a PDF and interact with the chatbot directly from the web interface.
