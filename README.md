@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Mini RAG Chatbot Logo" width="200"/>
+  <img src="assets/logo.png" alt="Mini RAG Chatbot Logo" width="200"/>
 </p>
 
 <h1 align="center">🤖 Mini RAG Chatbot – Local AI Assistant</h1>
