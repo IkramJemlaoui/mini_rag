@@ -142,15 +142,18 @@ cd mini_rag
 ```
 
 2️- Create and activate a virtual environment:
+
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 3-Install your dependencies
+
 ```bash
 pip install -r requirements.txt ```
 
 4️- Lanch the application
+
 ```bash
 python app.py ```
 
